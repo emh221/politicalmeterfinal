@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <div class="container">
+    <h1>Take our political quiz!</h1>
+
+    <form id="test">
+      <label for="president">Do you like the president?</label>
+      <select id="president">
+        <option value="4">yes</option>
+        <option value="3">kinda</option>
+        <option value="2">not really</option>
+        <option value="1">no</option>
+      </select><br>
+      <label for="minimum">Do you think we should lower the minimum wage?</label>
+      <select id="minimum">
+        <option value="4">yes</option>
+        <option value="3">kinda</option>
+        <option value="2">not really</option>
+        <option value="1">no</option>
+      </select><br>
+      <label for="abortion">should we punish women for abortions?</label>
+      <select id="abortion">
+        <option value="4">yes</option>
+        <option value="3">kinda</option>
+        <option value="2">not really</option>
+        <option value="1">no</option>
+      </select><br>
+      <label for="tax">Do you think our corporate tax rate is fair?</label>
+      <select id="tax">
+        <option value="4">yes</option>
+        <option value="3">kinda</option>
+        <option value="2">not really</option>
+        <option value="1">no</option>
+      </select><br>
+      <button class="btn btn-danger" type="submit">find results</button>
+    </form><br>
+    <div id="results">
+      <p>you are a <span id="persuasion"></span></p>
+    </div>
+  </div>
+
+</body>
+</html>
